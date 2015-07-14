@@ -1,5 +1,21 @@
 Rails.application.routes.draw do
   
+  # get 'animals/index'
+
+  # get 'animals/new'
+
+  # get 'animals/show'
+
+  # get 'animals/edit'
+
+  # get 'zoos/index'
+
+  # get 'zoos/new'
+
+  # get 'zoos/show'
+
+  # get 'zoos/edit'
+
   root 'zoo#index'
   resources :zoos do
     resources :animals, shallow: true
